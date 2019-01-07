@@ -3,7 +3,7 @@
 Call trace decoder for Geth with output formatter and demonstration app
 
 ## Prerequisites
-From the root run
+From the root of this repository, run
 ```
 npm install
 ```
