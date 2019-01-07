@@ -1,0 +1,14 @@
+{
+  "name": "geth-trace-decoder",
+  "version": "0.1.0",
+  "description": "Call trace decoder for Geth",
+  "author": "Artos Systems Ltd",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/AventusSystems/geth-trace-decoder/issues"
+  },
+  "homepage": "https://github.com/AventusSystems/geth-trace-decoder#readme",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2"
+  }
+}

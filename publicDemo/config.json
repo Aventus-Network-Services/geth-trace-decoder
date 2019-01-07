@@ -1,0 +1,50 @@
+{
+  "demoTransactionHash" : "0x23e73cc46b12982f76400350c60237e3103373163d3dd715562845ab46bf34bf",
+  "knownAddresses" : {
+    "0x1b185002395904310c2f116060cbaeccebba9b7f": "MyAccount",
+    "0x34dcd85470cc9a6a836f97fd4770736b74f7adf6": "TestContract"
+  },
+  "demoVmTrace": {
+    "type": "CALL",
+    "from": "0x1b185002395904310c2f116060cbaeccebba9b7f",
+    "to": "0x34dcd85470cc9a6a836f97fd4770736b74f7adf6",
+    "value": "0x0",
+    "gas": "0x630d5d",
+    "gasUsed": "0x9fe1",
+    "input": "0xe420a186000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000b5465737420737472696e67000000000000000000000000000000000000000000",
+    "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "time": "2.322234ms"
+  },
+  "demoABI" : {
+    "contractName": "TestContract",
+    "abi": [
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_firstParam",
+            "type": "uint256"
+          },
+          {
+            "name": "_secondParam",
+            "type": "uint256"
+          },
+          {
+            "name": "_description",
+            "type": "string"
+          }
+        ],
+        "name": "testMethod",
+        "outputs": [
+          {
+            "name": "result_",
+            "type": "bool"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ]
+  }
+}
