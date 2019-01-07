@@ -7,7 +7,7 @@ Development for Ethereum is hard. The tools currently available to support our r
 
 Overall, it is difficult to understand what makes a contrat fail, and in contract calls that make several calls of their own, finding the cause for an error is frequently a hair-pulling exercise.
 
-Enter the geth-trace-debugger.
+Enter the geth-trace-decoder.
 
 We developed this tool to reduce the frustration of our debugging sessions. It takes the call trace of a transaction (successful or failing) and decodes it into a human-readable way, so that the user will be able to understand the whole sequence of calls until the transaction failed. This tool is not able to extract the error associated with a revert, but typically it will give all the information exactly until that point, including:
 * contract called into (by name or address)
@@ -17,6 +17,8 @@ We developed this tool to reduce the frustration of our debugging sessions. It t
 We hope this is useful for the community at large. It is our 'Thank you!' for all the people working to make Ethereum the platform of the future, to improve the productivity of developers in this eco-system, and to make it an easier environment to develop in.
 
 This repo provides a library that you can use and an example formatter making use of those libraries to output the results to console. Feel free to produce other formatters more suitable to your needs, and let us know if you find our work useful, if you know how it could be improved and how you'd like to see it evolve in the future.
+
+Thank you to ConsenSys for their `abi-decoder` tool and the inspiration it gave us.
 
 Happy coding!
 
