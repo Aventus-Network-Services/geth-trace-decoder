@@ -1,5 +1,5 @@
-# Geth-Trace-Debugger
-### Calltrace decoder for Geth with output formatters and demonstration app
+# Geth trace decoder
+### Call trace decoder for Geth with output formatter and demonstration app
 
 Development for Ethereum is hard. The tools currently available to support our role as developers are still crude in many ways. They are all welcome and essential but we are still very far away of the development environments for more mature technologies.
 
@@ -23,7 +23,7 @@ Thank you to ConsenSys for their `abi-decoder` tool and the inspiration it gave 
 Happy coding!
 
 ## Prerequisites
-From the root and (/publicDemo) run
+From the root of this repository, run
 ```
 npm install
 ```
@@ -62,7 +62,7 @@ demo_privateGethNode()
 ```
 
 ## Running the demonstration app
-From /publicDemo run
+From `publicDemo` run
 ```js
 node demo.js
 ```
