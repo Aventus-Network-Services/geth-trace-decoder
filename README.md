@@ -1,9 +1,9 @@
-# GethDebugger
+# Geth trace decoder
 
-Calltrace decoder for Geth with output formatters and demonstration app
+Call trace decoder for Geth with output formatter and demonstration app
 
 ## Prerequisites
-From the root and (/publicDemo) run
+From the root run
 ```
 npm install
 ```
@@ -42,7 +42,7 @@ demo_privateGethNode()
 ```
 
 ## Running the demonstration app
-From /publicDemo run
+From `publicDemo` run
 ```js
 node demo.js
 ```
