@@ -4,6 +4,7 @@
   "description": "Call trace decoder for Geth",
   "author": "Artos Systems Ltd",
   "license": "MIT",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/AventusSystems/geth-trace-decoder/issues"
   },
