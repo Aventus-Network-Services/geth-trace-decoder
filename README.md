@@ -22,10 +22,19 @@ Thank you to ConsenSys for their `abi-decoder` tool and the inspiration it gave 
 
 Happy coding!
 
-## Prerequisites
+## Install
 From the root of this repository, run
 ```
 npm install
+```
+
+## Usage
+```js
+const lib = require('@artossystems/geth-trace-decoder');
+
+const processor = new lib.traceProcessor(your-contract-ABI-array);
+const result = processor.decodeTrace(geth-transaction-debug-trace);
+console.log(lib.consoleOutputFormatter.format(result));
 ```
 
 ## Examples
@@ -61,7 +70,7 @@ To run this function you need to replace `<YOUR TRANSACTION HASH>` with a **rece
 demo_privateGethNode()
 ```
 
-## Running the demonstration app
+## Running the demo
 From `publicDemo` run
 ```js
 node demo.js
