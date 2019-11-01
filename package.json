@@ -1,6 +1,6 @@
 {
   "name": "@artossystems/geth-trace-decoder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Call trace decoder for Geth",
   "author": "Artos Systems Ltd",
   "license": "MIT",
