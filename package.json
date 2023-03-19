@@ -14,9 +14,10 @@
   },
   "homepage": "https://github.com/ArtosSystems/geth-trace-decoder#readme",
   "dependencies": {
+    "abi-decoder": "^2.4.0",
     "cheerio": "^1.0.0-rc.10",
     "colors": "^1.3.2",
-    "web3": "^1.4.0"
+    "web3": "^1.8.2"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
