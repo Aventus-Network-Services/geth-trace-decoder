@@ -1,3 +1,9 @@
+# Deprecation Notice
+
+This repository is deprecated; No further Issues or Pull Requests will be considered or approved.
+
+---
+
 # Geth trace decoder
 ### Call trace decoder for Geth with output formatter and demonstration app
 
